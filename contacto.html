@@ -47,33 +47,17 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav><br>
     <div class="container">
-    <h1 class="tituloFormulario">Formulario a llenar</h1>
-    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
-        <fieldset class="form-group">
-            <legend class="contactoRecuadro">Contacto</legend>
-            <label for="nombre">Nombre:</label>
-            <input type="text" class="form-control" name="nombre"><br><br>
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" class="form-control" name="apellidos"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" name="email"><br><br>
-            <label for="telefono">Celular:</label>
-            <input type="text" class="form-control" name="telefono"><br>
-            <label for="generoM">Género musical de preferencia:</label>
-            <div>Rock alternativo</div>
-            <input type="radio" name="generomusical" value="rock" checked>
-            <div>Metal nu</div>
-            <input type="radio" name="generomusical" value="metal">
-            <div>Otro</div>
-            <input type="radio" name="generomusical" value="NA">
-            <div>Acepta recibir notificaciones de próximos conciertos</div>
-            <input type="checkbox" name="acepta" value="1" /><br>
-            <textarea name="areadetexto" cols="30" rows="10" placeholder="Escribe un comentario"></textarea><br>
-            <input type="submit" class="form-control" value="Enviar formulario" />
-            <input type="reset" class="form-control" value="Limpiar formulario" />
-        </fieldset>
+    <h1 class="tituloFormulario">Formulario de Registro</h1><br>
+    <form class="formulario" action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+        <input class="form_control" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="form_control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="form_control" type="email" name="correo" id="correo" placeholder="Ingrese su Email">
+        <input class="form_control" type="password" name="contrasena" id="contrasena" placeholder="Ingrese una Contraseña">
+        <input type="checkbox" name="acepta" value="1" /> Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>
+        <input class="boton" type="submit" value="Registrar">
+        <p><a href="#">¿Ya tengo una Cuenta?</a></p>
     </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
