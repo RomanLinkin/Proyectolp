@@ -120,7 +120,14 @@ ul li {
 }
 
 #h2 {
+  width: 300px;
   background-position: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: black;
+  text-shadow: #0400ff 5px 5px 5px;
 }
 
 #h3 {
@@ -155,7 +162,7 @@ ul li {
 .imgIntegrantes1 {
   width: 80%;
   height: 70%;
-  border: 5px solid crimson;
+  border: 5px solid #1bbba0;
   border-radius: 5px;
 }
 
@@ -169,7 +176,7 @@ ul li {
 .imgIntegrantes2 {
   width: 80%;
   height: 70%;
-  border: 5px solid crimson;
+  border: 5px solid #1bbba0;
   border-radius: 5px;
 }
 
@@ -183,7 +190,7 @@ ul li {
 .imgIntegrantes3 {
   width: 80%;
   height: 70%;
-  border: 5px solid crimson;
+  border: 5px solid #1bbba0;
   border-radius: 5px;
 }
 
@@ -197,7 +204,7 @@ ul li {
 .imgIntegrantes4 {
   width: 80%;
   height: 70%;
-  border: 5px solid crimson;
+  border: 5px solid #1bbba0;
   border-radius: 5px;
 }
 
@@ -211,7 +218,7 @@ ul li {
 .imgIntegrantes5 {
   width: 80%;
   height: 70%;
-  border: 5px solid crimson;
+  border: 5px solid #1bbba0;
   border-radius: 5px;
 }
 
@@ -225,7 +232,7 @@ ul li {
 .imgIntegrantes6 {
   width: 80%;
   height: 70%;
-  border: 5px solid crimson;
+  border: 5px solid #1bbba0;
   border-radius: 5px;
 }
 
@@ -242,7 +249,7 @@ ul li {
   display: -ms-grid;
   display: grid;
   margin: 20px;
-  border: brown solid 5px;
+  border: #1a3626 solid 5px;
   font-size: 30px;
   text-align: center;
   color: #fff;
@@ -383,6 +390,14 @@ body {
 }
 
 .tituloIntegrantes {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: darkcyan;
+  text-shadow: red 5px 5px 5px;
+}
+
+.titulo-playlist {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
@@ -647,5 +662,20 @@ body {
     grid-gap: 30px;
     padding: 35px 0px;
   }
+}
+
+.reproductor-spotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reproductor {
+  border: 5px solid;
+  color: #102e33;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=estilos.css.map */

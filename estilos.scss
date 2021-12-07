@@ -120,7 +120,14 @@
   }
   
   #h2 {
+    width: 300px;
     background-position: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(4, 0, 255) 5px 5px 5px;
   }
   
   #h3 {
@@ -155,7 +162,7 @@
   .imgIntegrantes1 {
     width: 80%;
     height: 70%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 187, 160);
     border-radius: 5px;
   }
   
@@ -169,7 +176,7 @@
   .imgIntegrantes2 {
     width: 80%;
     height: 70%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 187, 160);
     border-radius: 5px;
   }
   
@@ -183,7 +190,7 @@
   .imgIntegrantes3 {
     width: 80%;
     height: 70%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 187, 160);
     border-radius: 5px;
   }
   
@@ -197,7 +204,7 @@
   .imgIntegrantes4 {
     width: 80%;
     height: 70%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 187, 160);
     border-radius: 5px;
   }
   
@@ -211,7 +218,7 @@
   .imgIntegrantes5 {
     width: 80%;
     height: 70%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 187, 160);
     border-radius: 5px;
   }
   
@@ -225,7 +232,7 @@
   .imgIntegrantes6 {
     width: 80%;
     height: 70%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 187, 160);
     border-radius: 5px;
   }
   
@@ -242,7 +249,7 @@
     display: -ms-grid;
     display: grid;
     margin: 20px;
-    border: brown solid 5px;
+    border: rgb(26, 54, 38) solid 5px;
     font-size: 30px;
     text-align: center;
     color: #fff;
@@ -389,7 +396,13 @@
     color: darkcyan;
     text-shadow: red 5px 5px 5px;
   }
-  
+  .titulo-playlist{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: darkcyan;
+    text-shadow: red 5px 5px 5px;
+  }
   /*.bioL{
       width: 400px;
       height: 400px;
@@ -621,5 +634,14 @@
       grid-gap:30px;
       padding: 35px 0px;
     }
+  }
+  .reproductor-spotify{
+    display:flex;
+    justify-content: center;
+  }
+  .reproductor{
+    border: 5px solid;
+    color: rgb(16, 46, 51);
+    margin-bottom: 50px;
   }
   /*# sourceMappingURL=estilos.css.map */
